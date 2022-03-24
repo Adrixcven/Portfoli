@@ -1,0 +1,62 @@
+/*REGLES*/
+
+/*PROPIETATS DE LES LLISTES*/
+
+/*
+La propietat list-style-type és la que ens permet definir el tipus de vinyeta de les
+llistes.
+Alguns valors possibles d'aquesta propietat són:
+    - none: sense vinyetes, números o lletres.
+    - valors gràfics, que poden ser:
+        - disc: cercle farcit.
+        - circle: cercle buit.
+        - square: quadrat farcit.
+    - valors numèrics, que poden ser:
+        - decimal: números enters.
+        - decimal-leading-zero: números enters de mínim dos digits 01, 02, 03, etc.
+        - lower-roman: números romans minúscula.
+        - upper-roman: números romans amb majúsula.
+        - armenian: numeració armènia
+    - valors alfanumèrics, que poden ser:
+        - lower-latin: lletres minúscules.
+        - lower-alpha: lletres minúscles del codi ascii.
+        - upper-latin: lletres majúscules.
+        - upper-alpha: lletres majúscules del codi ascii.
+        - lower-greek: lletres minúscules gregues.
+*/
+
+.quadrat{
+    list-style-type:square;
+}
+
+.minusculaGrec{
+    list-style-type:lower-greek;
+}
+
+.enterZero{
+    list-style-type:decimal-leading-zero;
+}
+
+/*
+La propietat list-style-image és la que ens personalitzar les vinyetes amb una imatge.
+Les imatges personalitzades s'indiquen mitjançant la URL de la imatge URL(rutaImatge). 
+Si no es troba la imatge o no es pot carregar, es mostra la vinyeta automàtica corresponent.
+De moment, hem de tenir en compte la mida de la imatge.
+*/
+.vinyetaImatgeDesfasada{ /*Tamany massa gran*/
+    list-style-image:url("../imatges/googlephotos.png");
+}
+
+.vinyetaImatge{ /*Mida correcte*/
+    list-style-image:url("../imatges/googlephotosVinyeta.png");
+}
+
+/*
+La propietat list-style-position és la que ens permet posicionar laa vinyeta.
+Els valor possibles són:
+    - outside: sagnia a totes les línies del contingut d'un il (valor per defecte).
+    - inside: No hi ha sagnia.
+*/
+#sagniaVinyeta{
+    list-style-position:inside;
+}

@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<arbres>
+  <arbre codi="P0001" preu="25,5">
+    <nom>Pomer</nom>
+    <vatietat>Royal Red</vatietat>
+    <color-fruit>vermell</color-fruit>
+    <maduració>agost - setembre</maduració>
+  </arbre>
+</arbres>

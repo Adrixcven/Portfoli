@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Fruteria>
+  <Maduixes>
+    <Codi></Codi>
+    <NomProducte>Maduixes</NomProducte>
+    <NomProductor></NomProductor>
+    <Tipus>
+      <Aliment>Si</Aliment>
+      <Fragilitat>3</Fragilitat>
+      <Frigorific>No</Frigorific>
+    </Tipus>
+    <Secció></Secció>
+    <Estoc>No hi ha</Estoc>
+  </Maduixes>
+  <Peres>
+    <Codi></Codi>
+    <NomProducte>Peres</NomProducte>
+    <NomProductor></NomProductor>
+    <Tipus>
+      <Aliment>Si</Aliment>
+      <Fragilitat>2</Fragilitat>
+      <Frigorific>No</Frigorific>
+    </Tipus>
+    <Secció></Secció>
+    <Estoc>30</Estoc>
+  </Peres>
+  <Suc>
+    <Codi></Codi>
+    <NomProducte>Suc</NomProducte>
+    <NomProductor></NomProductor>
+    <Tipus>
+      <Aliment>No</Aliment>
+      <Fragilitat>1</Fragilitat>
+      <Frigorific>Si</Frigorific>
+    </Tipus>
+    <Secció></Secció>
+    <Estoc>20</Estoc>
+  </Suc>
+  <Productors xmlns:prod="productors.xml">
+    <prod:CIF></prod:CIF>
+    <prod:nom></prod:nom>
+    <prod:adreça></prod:adreça>
+  </Productors>
+</Fruteria>

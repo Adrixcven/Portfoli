@@ -1,0 +1,72 @@
+/*REGLES*/
+
+/*PROPIETATS PEL FONS DELS ELEMENTS*/
+
+/*
+La propietat background-color és la que ens permet definir el color del fons de qualsevol element HTML.
+Li assignarem el color que li volem donar al fons de l'element.
+*/
+
+/*Regla que fa que el contingut d'un element amb el valor "fonsTitol" assignat al seu atribut class,
+sigui de color rosa i el seu fons de color daurat.*/
+.fonsTitols{
+    color:#FF0080; /*Color del contingut de l'element'*/
+    background-color:gold; /*Color del fons de l'element'*/
+}
+
+/* La següent regla afecta a tot el document, ja que la  definim per l'element body*/
+body{
+
+    /*background-color:#FFE4C4; /*color de fons de tot el document*/
+
+    /*
+    La propietat background-image és la que ens permet insertar una imatge en el fons de qualsevol element HTML.
+    Li assignarem l'adreça de la imatge amb el format url(adreça de la imatge).
+    Aquesta adreça pot ser relativa o absoluta, depèn d'on estigui situada la imatge, de la
+    mateixa manera que ho fem amb l'element img de HTML.
+    Per defecte, la imatge es repetirà tants cops com faci falta per omplir tota la pantalla.
+    La imatge sempre s'inserirà de dalt a baix i d'esquerra a dreta.
+    */
+    /*background-image: url("../imatges/googlephotos.png"); /*imatge del fons del document*/
+    
+    /*
+    La propietat background-repeat defineix quants cops es repetirà la imatge que hem inserit
+    com a fons d'un element HTML.
+    Els valors utilitzats per aquesta propietat per aconseguir aquests efectes són:
+        repeat-x -> La imatge es repeteix en l'eix horitzontal.
+        repeat-y -> La imatge es repeteix en l'eix vertical.
+        repeat   -> La imatge es repeteix en l'eix horitzontal i vertical (opció per defecte).
+        no-repeat-> La imatge no es repeteix.
+    */
+   /*background-repeat:no-repeat; /*No es repetix la imatge del fons del document*/
+   
+   /*
+    La propietat background-attachment defineix si la imatge que hem inserit com 
+    a fons d'un element HTML està fixa en la pantalla i no es mou juntament amb 
+    l'element on l'hem inserit quan l'usuari es desplaça per la pàgina o bé la imatge 
+    inserida es mourà dins de la pantalla juntament amb l'element que la conté.
+    Els valors utilitzats per aquesta propietat per aconseguir aquests efectes són:
+        scroll-> La imatge es mou per la pantalla juntament amb l'element que la conté. (opció per defecte)
+        fixed -> La imatge es fixa, no es mou per la pantalla juntament amb l'element que la conté.    
+    */
+   /*background-attachment:fixed; /*La imatge del fons del document no es mou amb l'element body'*/
+   
+   /*
+    La propietat background-position, com s'especifica en la web del mòdul, és la
+    que ens permet situar una imatge inserida en el fons de qualsevol element HTML,
+    en la posició de la finestra que nosaltres vulguem.
+    A aquesta propietat li donem dos valors, el primer serà la posició de la imatge
+    en referència al costat esquerre de la finestra i el segon la posició de la
+    imatge en relació amb la part superior de la finestra.
+    */
+    /*background-position:center center; /*imatge situada en el centre de la finestra*/
+    
+    /*
+    La propietat background, comprèn tots els valors de les propietats que li podem
+donar a una imatge de fons.
+    El seu valor serà: background-color background-image background-repeat background-attachment background-position
+    en aquest ordre. Si s'omet alguna de les propietats, el sistema prendrà el seu valor per defecte.'
+    */
+    /*background:#FFE4C4 url("../imatges/googlephotos.png") no-repeat fixed center center; /*imatge amb les propietats anteriors*/
+   
+}

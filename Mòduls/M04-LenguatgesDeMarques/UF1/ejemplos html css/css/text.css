@@ -1,0 +1,64 @@
+/*REGLES*/
+
+/*PROPIETATS DEL TEXT DELS ELEMENTS HTML*/
+
+p {
+    /*
+    La propietat text-indent és la que ens permet aplicar sagnia a la primera línia
+    d'un paràgraf.
+    Els valors que podem assignar a aquesta propietat són els mateixos que utilitzem
+    amb la grandària de les fonts: em, %, px i pt. L'única diferència és que en el cas 
+    del %, la sagnia fa referència a l'amplària de l'element que conté el text.
+    */
+    text-indent: 10em; /*sagnia del text del contenidor p a 10em en relació amb la grandària de la font del paràgraf*/
+    
+    /*
+    La propietat letter-spacing és la que ens permet definir un espait entre els caràcters del text.
+    Els valors que podem assignar a aquesta propietat són els mateixos que utilitzem
+    amb la grandària de les fonts: em, px i pt, menys el %.
+    */
+    /*letter-spacing: 2em; /*La separació entre caràcters és el doble del seu tamany original*/
+}
+
+.textTitol {
+    text-indent: 50%; /*sagnia a la meitad del contenidor*/
+}
+
+/*
+La propietat text-align és la que ens permet aplicar una alineació al paràgraf del text.
+Els valors possibles d'aquesta propietat són: 
+        - left    -> text alineat a l'esquerra.
+        - right   -> text alineat a la dreta.
+        - center  -> text amb alineació centrada.
+        - justify -> text amb alineació justificada.
+*/
+th {
+    text-align: right; /*Contingut de la cel.la d'encapcelat a la dreta*/
+}
+
+td {
+    text-align: center; /*Contingut de les cel.les centrat*/
+}
+
+h1{
+    /*
+    La propietat text-decoration és la que ens permet definir diferents "decoracions" 
+    o "efectes" al text.
+    Els valors que podem assignar a aquesta propietat són:
+        - underline     -> Text subrallat.
+        - overline      -> Text subrallat per sobre.
+        - line-through  -> Text taxat.
+    */
+    /*text-decoration:line-through; /*Títol taxat*/
+    
+    /*
+    La propietat text-transform és la que ens permet definir diferents aspectes relacionats
+    amb les majúscules del text.
+    Els valors que podem assignar a aquesta propietat són:
+        - capitalize -> Posa en majúscula la primera lletra de cada paraula.
+        - uppercase  -> Converteix totes les lletres a majúscula.
+        - lowercase  -> Converteix totes les lletres a minúscula.
+        - none       -> No es realitza cap transformació (opció per defecte)
+    */
+    /*text-transform:capitalize; /*Totes les incials del títol en majúscula*/    
+}

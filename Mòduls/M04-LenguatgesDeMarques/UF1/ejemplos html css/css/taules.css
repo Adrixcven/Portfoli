@@ -1,0 +1,76 @@
+/*REGLES*/
+
+/*PROPIETATS DE LES TAULES*/
+
+/*Taula amb vora amb format tallat i les cel.les en una única vora. La distància
+entre les cel.les de dreta i esquerra és de 2 punts i les de dalt i baix 5 px. El
+títol col.locat a la part inferior.*/
+
+table{
+    /*
+    La propietat border-style és la que ens permet definir el tipus de vora de diferents 
+    elements, entre ells els d'una taula.
+    Els seus valors poden ser: 
+        - none: sense vora (per defecte).
+        - dotted: vora de punts.
+        - dashed: vora discontínua (ratlletes).
+        - solid: vora continua d'una única línia.
+        - groove: vora amb format tallat.
+        - ridge: vora amb aparença incrustada.
+        - outset: vora en relleu.
+    Quan col·lapsem les cel·les, alguns d'aquests valors es modifiquen.
+    
+    border-style:groove;*/
+
+    /*
+    La propietat border-collapse és la que ens permet definir si les vores de la taula han de col·lapsar
+    en una sola vora o estar separades com en HTML.
+    Els seus valors poden ser: 
+        - separate: cada cel·la mostrarà les seves pròpies vores (valor per defecte HTML)
+        - collapse: Les vores es contreuen en una sola vora quan és possible.
+   
+    border-collapse:collapse;*/
+    
+    /*
+    La propietat caption-side estableix la situació dels títol d'una taula. Els seus valors
+    poden ser:
+        - top: part superior (valor per defecte).
+        - bottom: part inferior.
+   
+    caption-side: bottom; */
+    
+    /*
+    La propietat empty-cells estableix si les cel.les buides tenen vora o no. Els
+    valors possibles són:
+        - show: mostra les vores (valor per defecte).
+        - hide: no les mostra.
+    Aquesta propietat no té efecte si la propietat border-collapse és collapse.
+   
+    empty-cells: hide; */
+    
+    /*
+    La propietat border-spacing estableix la distància entre les vores de les cel.les adjacents
+    tant als costats com a dalt i baix. No cal definir els dos valors. Els seus valors poden ser 
+    px, cm, pt, etc. 
+    
+    border-spacing: 10px 5px; */  
+}
+
+/*Tant a les cel.les com a les files i a la taula, li podem assignar les propietats vistes fins ara*/
+
+/*Vora de files i fons rosa*/
+tr{
+    border-style:solid;
+    background-color:#FF0080;
+}
+
+/*Vora de cel.les*/
+td{
+    border-style:solid;
+}
+
+/*Vora de cel.les del títol i fons color blau fluix*/
+th{
+    border-style:solid;
+    background-color:lightblue;
+}

@@ -1,0 +1,131 @@
+*{
+    text-align:left
+}
+
+body{
+    line-height: 1.5 /*interlineat pel mitjà pantalla i impresora*/
+}
+
+h1{
+    color:blueviolet;
+    font-family:Verdana, serif;
+}
+
+h2,h3{
+    color: #8A8E27;
+    font-weight: normal;
+    font-family: Helevetica, san-serif;
+}
+
+article b{
+    color:blue;
+}
+
+li{
+    list-style-type: none;
+}
+
+li:first-of-type{ /*S'activa si és el primer element de la llista*/
+    font-size: 22px;
+    color:#333399;
+    list-style-type: none;
+}
+
+li:last-of-type{ /*S'activa si és l'últim elment de la llista*/
+    font-size: 16px;
+    color:#333399;
+    list-style-type:disc;
+}
+
+/*--------------------PROPIETATS CONTENIDORS--------------------*/
+
+article{
+
+    /*Caixa Content. Es poden modificar diverses propietats aplicant les propietats vistes fins ara, més l'amplada i alçada*/
+    background: orange; /*Color de fons.*/
+    height:25px; /*alçada de l'àrea on mostrarem el contingut del contenidor article*/
+    width: 500px; /*amplada de l'àrea on mostrarem el contingut del contenidor article*/
+
+    /*Caixa Padding. Només es pot modificar la seva alçada i amplada*/
+    padding-top: 10px; /*Límit superior*/
+    padding-right: 30px; /*Límit dret*/
+    padding-bottom:10px; /*Límit inferior*/
+    padding-left: 20px;  /*Límit esquerra*/
+    /*padding:10px*/ /*S'aplicarà el mateix valor a tots els paddings*/
+    /*padding:10px 30px;*/ /*S'aplicarà el primer valor al límit superior i inferior (top i bottom), i el segon als costats (left i right)*/
+    /*padding:10px 30px 10px;*/ /*S'aplicarà el primer valor al límit superior (top), el segon als costats (left i right) i el tercer al límit inferior (bottom)*/
+
+
+    /*Caixa Border. Es pot modificar el seu gruix, estil i color*/
+    border-width: 1px; /*Gruix de tota la vora*/
+    /*border-style: solid; /*Estil de tota la vora*/
+    border-color: blueviolet; /*Color de tota la vora*/
+    border: 10px solid transparent;
+
+    /*border: 1px solid blueviolet; /*Aplica tots els valors a totes les vores*/
+    /*border-top:1px solid blueviolet; /*Aplica tots els valors a la vora superior. El mateix es pot fer amb totes les vores (bottom, right i left)*/
+    /*border-top-widht: 1px; /*Aplica el gruix a la vora superior. El mateix es pot fer amb totes les vores i propietats*/
+
+    /*Caixa Margin. Només es pot modificar la seva alçada i amplada. El seu comportament és el mateix que padding*/
+    margin-top: 10px; /*Límit superior*/
+    margin-right: 30px; /*Límit dret*/
+    margin-bottom:10px; /*Límit inferior*/
+    margin-left: 20px  /*Límit esquerra*/
+        /*margin:10px /*S'aplicarà el mateix valor a tots els marges*/
+        /*margin:10px 30px; /*S'aplicarà el primer valor als marges superior i inferior (top i bottom), i el segon als laterals (left i right)*/
+        /*margin:10px 30px 10px; /*S'aplicarà el primer valor al marge superior (top), el segon als laterals (left i right) i el tercer al marge inferior (bottom)*/
+        /*Quan dues caixes es toquen (margin collapsing), la distància entre elles és el valor del marge més gran, no la suma dels dos*/
+
+}
+
+div.imatge{
+
+    padding:10px; /*S'aplicarà el mateix valor a tots els paddings*/
+
+    /*Margin*/
+    margin-top: 10px; /*Límit superior*/
+    margin-right: 400px; /*Límit dret*/
+    margin-bottom:10px; /*Límit inferior*/
+    margin-left: 400px;  /*Límit esquerra*/
+}
+
+h4{
+    background-color: khaki;
+    color:#FF0080;
+    font-family:Verdana, serif;
+
+    padding:10px; /*S'aplicarà el mateix valor a tots els paddings*/
+
+    /*Vora superior*/
+    border-top-width: 1px; /*Gruix*/
+    border-top-color: blueviolet; /*Color*/
+    border-top-style:groove; /*Estil*
+                          
+    /*Vora dreta*/
+    border-right-width: 2px; /*Gruix*/
+    border-right-color:#FF0000; /*Color*/
+    border-right-style:dashed; /*Estil*/
+
+    /*Vora inferior*/
+    border-bottom-width: 3px; /*Gruix*/
+    border-bottom-color:green; /*Color*/
+    border-bottom-style:double; /*Estil*/
+
+    /*Vora esquerra*/
+    border-left-width: 4px; /*Gruix*/
+    border-left-color: darkgoldenrod; /*Color*/
+    border-left-style: solid; /*Estil*/  
+
+}
+
+
+.llistaHoritzontal li{    
+    font-family: Arial;
+    font-size: 22px;
+    background-color: #2175bc;
+    color: #FFFFFF;
+
+    padding: 10px;
+
+    display: inline; /*Situa el llistat de manera horitzontal i sense vinyetes*/
+}

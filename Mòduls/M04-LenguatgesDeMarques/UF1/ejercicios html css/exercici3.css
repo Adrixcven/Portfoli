@@ -1,0 +1,6 @@
+/*tabla roja, en verdana y con fondo de lime*/
+table{ color: #ff0000; font: Verdana; background-color:lime;  }
+
+p{ color: #00aa00;  }
+
+h1{ color: #8c004b; text-decoration:underline; text-transform:capitalize; }

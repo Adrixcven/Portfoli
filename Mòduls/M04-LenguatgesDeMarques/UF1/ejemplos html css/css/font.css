@@ -1,0 +1,92 @@
+/*REGLES*/
+
+/*PROPIETATS DE LES FONTS DELS ELEMENTS D'UN DOCUMENT'*/
+
+
+/*Regla que fa que la font del contingut de l'element títol h1, sigui arial, i si no
+pot ser verdana i si no, qualsevol tipus de font de la família genèrica sans-serif, en
+oblique, no negreta i una grandària de 30 píxels.*/
+h1 {
+    /*
+    La propietat font-family és la que ens permet definir de quin tipus de font serà
+    el contingut d'un element del document.
+    El valor que li assignarem a aquesta propietat és una llista ordenada dels noms de família
+    de fonts que volem en què es mostri el contingut.
+    El nom de les famílies s'ha de posar en ordre de preferència. Si la primera font de la
+    llista no es troba en el sistema des del qual s'accedeix al lloc, es continuarà provant
+    amb la següent font fins a trobar una font apropiada. L'últim nom és recomanable que
+    sigui el nom d'una família genèrica, d'aquesta manera si no s'ha trobat cap de les altres
+    fonts, es podrà imprimir una font genèrica que ens sigui escaient.
+    El nom de les famílies que tenen espais en blanc, com Times New Roma, han d'anar entre cometes.
+    */
+    /*font-family: arial, verdana, sans-serif;*/
+    
+    /*
+    La propietat font-style és la que ens permet definir un dels tres estils següents a la
+    font de l'element.
+    Els estils possibles són normal (estil per defecte), italic (cursiva) i oblique.
+    En el cas d'italic el navegador crecara si la font te la versió italic, si no la té,
+    cercarà la versió oblique i si tampoc la té, simularà l'estil italic.
+    En el cas d'oblique el navegador fa el mateix que en el cas d'italic però al revés,
+    primer cercarà oblique i si no existeix, italic.
+    */
+    /*font-style:oblique;*/
+    
+    /*
+    La propietat font-variant és la que ens permet definir la variant versalita d'una font.
+    La variant versalita escriu el text en majúscules, però les majúscules corresponents
+    a les minúscules les dibuixa més petites.
+    Els valors possibles són normal (estil per defecte que no aplica la variant versalita)
+    i samll-caps (aplica la variant versalita).
+    En el cas que la font no presenti la variant versalita, el navegador segurament
+    escriurà tot el text en majúscula.
+    */
+    /*font-variant:small-caps;*/
+    
+    /*
+    La propietat font-weight és la que ens permet definir la intensitat de negreta d'un text.
+    El valors possibles són normal o bold. Alguns navegadors suporten, fins i tot, 
+    l'ús de números entre 100 i 900 (de cent en cent) per a descriure la intensitat de la negreta.
+    */
+    /*font-weight:normal;  /*normal equival a 100*/
+    
+    /*
+    La propietat font-size és la que ens permet definir la mida de la font assignat-li
+    els tipus de valors especificats en la web del mòdul.
+    */
+    /*font-size:30px;  /*Gràndaria de 30 píxels*/
+
+}
+
+/*Regla que fa que la font del contingut de l'element títol h2, sigui Times New Roman, 
+i si no pot ser, qualsevol tipus de font de la família genèrica serif, en cursiva, no 
+negreta i una grandària de 12 punts.*/
+#font {
+    font-family: "Times New Roman", serif;
+    font-style:italic;
+    font-weight:300; /*com podem comprovar, ni Firefoxs, ni Chrome detecten el valor numèric*/
+    font-size:12pt;
+}
+
+/*Regla que fa que la font del contingut d'un paràgraf, sigui en negreta i amb una grandària d'un 120%
+ és a dir, un 20% més que la seva grandària original*/
+p {
+    font-weight:bold; /*Bold equival a 600*/
+    font-size:120%;
+}
+
+/*Regla que fa que la font del contingut de l'element títol h1, sigui arial, i si no
+pot ser verdana i si no, qualsevol tipus de font de la família genèrica sans-serif, en
+oblique, no negreta i una grandària d'un 1 em, és a dir, igual que l'original.*/
+h3 {
+    /*
+    La propietat font, comprèn tots els valors de les propietats que li podem donar
+    a una font.
+    El seu valor serà: font-style font-variant font-weight font-size font-family
+    en aquest ordre. Si s'omet alguna de les propietats, el sistema prendrà el seu valor per defecte.'
+    */
+    /*font:oblique small-caps normal 1em arial, verdana, sans-serif;*/
+}
+
+
+

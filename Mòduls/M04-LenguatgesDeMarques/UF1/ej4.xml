@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<persones xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="file:/C:/Users/Adrix/Desktop/DAM%201/Lenguaje%20de%20marcas/UF1/persones.xsd">
+  <persona>
+    <nom>Paula</nom>
+    <ciutat>Paris</ciutat>
+    <edat>23</edat>
+  </persona>
+</persones>

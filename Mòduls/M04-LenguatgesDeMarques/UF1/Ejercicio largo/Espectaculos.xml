@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Parc>
+<ESO>
+  <Activitat>
+    <Nom>Alhoa alumnes</Nom>
+    <PassPreferent>No</PassPreferent>
+    <Acces_Discapa>Si</Acces_Discapa>
+    <Horari></Horari>
+    <Tipus>Aventura</Tipus>
+  </Activitat>
+  <Activitat>
+    <Nom>Em sento al paradis</Nom>
+    <PassPreferent>No</PassPreferent>
+    <Acces_Discapa>Si</Acces_Discapa>
+    <Horari>
+    </Horari>
+    <Tipus>Didactic</Tipus>
+  </Activitat>
+  </ESO>
+<GM>
+  <Activitat>
+    <Nom>CCC@Experience</Nom>
+    <PassPreferent>No</PassPreferent>
+    <Acces_Discapa>Si</Acces_Discapa>
+    <Horari></Horari>
+    <Tipus>Passatge del terror</Tipus>
+  </Activitat>
+</GM>
+<GS>
+  <Activitat>
+    <Nom>Around the Coper</Nom>
+    <PassPreferent>Seient Vip</PassPreferent>
+    <Acces_Discapa>Si</Acces_Discapa>
+    <Horari></Horari>
+    <Tipus>Musical</Tipus>
+  </Activitat>
+</GS>
+<Profes>
+  <Activitat>
+     <Nom>CoperParade</Nom>
+    <PassPreferent>No</PassPreferent>
+    <Acces_Discapa>Si</Acces_Discapa>
+    <Horari></Horari>
+    <Tipus>Aventura</Tipus>
+  </Activitat>
+    <Activitat>
+     <Nom>Apocalipsis COVID</Nom>
+    <PassPreferent>Si</PassPreferent>
+    <Acces_Discapa>No</Acces_Discapa>
+    <Horari></Horari>
+    <Tipus>Passatge del terror</Tipus>
+  </Activitat>
+</Profes>
+</Parc>

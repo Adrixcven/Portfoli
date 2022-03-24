@@ -1,0 +1,45 @@
+/*REGLES*/
+
+/*PROPIETATS DELS ENLLAÇOS*/
+
+/*
+Per donar estil als enllaços, farem servir les pseudo-classes. Una pseudo-classe
+permet definir propietats per a un estat determinat d'un element. En el cas dels enllaços
+aquestes pseudo-classes seran (a fa refèrencia a l'element enllaç i després dels dos punts l'estat):
+    - a:link: per a enllaços que dirigeixen a pàgines que l'usuari no ha visitat.
+    - a:visited: per a enllaços que dirigeixen a pàgines que l'usuari ja ha visitat.
+    - a:active: per a enllaços que estan actius.
+    - a:hover: quan el punter del ratolí passa per sobre d'un enllaç.
+També podem donar estil a l'estat inicial d'un enllaç que serà donar estil a l'element a.
+L'estil que donarem a l'element a i les seves pseudo-classes, es pot crearutilitzan 
+qualsevol propietatde les vistes fins ara.
+*/
+
+/*Enllaços sense subrallat*/
+a{
+    text-decoration:none;
+}
+
+/*Enllaços no visitats de color blau clar*/
+a:link {
+    color: #6699CC;
+}
+
+/*Enllaços visitats de color púrpura fosc*/
+a:visited {
+    color: #660099;
+}
+
+/*Enllaços actius de color vermell*/
+a:active {
+    background-color: #FF0000;
+}
+
+/*Quan passem el ratolí sobre l'enllaç, les lletres de l'enllaç es transformaran 
+ en majúscules, en negreta, de color balu i el fons groc.
+a:hover {
+    text-transform: uppercase;
+    font-weight:bold;
+    color:blue;
+    background-color:yellow;
+}*/

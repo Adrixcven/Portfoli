@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<DAM>
+  <grup>
+  A
+    <alumne>
+      <nom></nom>
+      <cognom></cognom>
+    </alumne>
+    <alumne>
+      <nom></nom>
+      <cognom></cognom>
+    </alumne>
+    <alumne>
+      <nom></nom>
+      <cognom></cognom>
+    </alumne>
+  </grup>
+  <grup>
+    B
+    <alumne>
+      <nom></nom>
+      <cognom></cognom>
+    </alumne>
+    <alumne>
+      <nom></nom>
+      <cognom></cognom>
+    </alumne>
+    <alumne>
+      <nom></nom>
+      <cognom></cognom>
+    </alumne>
+  </grup>
+</DAM>

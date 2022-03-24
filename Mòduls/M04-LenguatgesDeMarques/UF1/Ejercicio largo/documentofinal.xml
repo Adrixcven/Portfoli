@@ -1,0 +1,775 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Parc>
+  <Nom> CoperAventura S.A.</Nom>
+  <Adreça>Passeig de la sort, 1</Adreça>
+  <Ciutat>Can Puces</Ciutat>
+  <Pais>Espanya</Pais>
+  <Lloc_web>http://www.coperaventura.com</Lloc_web>
+  <Atraccions>
+    <ESO>
+      <!--Ponemos los atributos nom, passPreferent, Access_discap, Foto y Video dentro de la etiqueta para mostrar los elementos que son si o no y el nombre de la actividad-->
+      <Activitat nom="Pati Mission" passPreferent="Si" Access_discap="Si" Foto="Si" Video="Si">
+        <Alçada_min>
+          <Acompañat>1,10´m</Acompañat>
+          <senseacompañar>1,20m</senseacompañar>
+        </Alçada_min>
+        <Intensitat> Infantil</Intensitat>
+      </Activitat>
+      <!--Ponemos los atributos nom, passPreferent, Access_discap, Foto y Video dentro de la etiqueta para mostrar los elementos que son si o no y el nombre de la actividad-->
+      <Activitat nom="L'aula misteriosa" passPreferent="No" Access_discap="Si" Foto="No" Video="No">
+        <Intensitat> Infantil</Intensitat>
+      </Activitat>
+      <!--Ponemos los atributos nom, passPreferent, Access_discap, Foto y Video dentro de la etiqueta para mostrar los elementos que son si o no y el nombre de la actividad-->
+      <Activitat nom="Magic entrepà" passPreferent="No" Access_discap="No" Foto="No" Video="No">
+        <Alçada_min>
+          <Acompañat>1,30m</Acompañat>
+          <senseacompañar>1,40m</senseacompañar>
+        </Alçada_min>
+        <Intensitat> Infantil</Intensitat>
+      </Activitat>
+      <!--Ponemos los atributos nom, passPreferent, Access_discap, Foto y Video dentro de la etiqueta para mostrar los elementos que son si o no y el nombre de la actividad-->
+      <Activitat nom="Profe-Profe" passPreferent="No" Access_discap="Si" Foto="Si" Video="No">
+        <Alçada_min>
+          <Acompañat>1,10m</Acompañat>
+          <senseacompañar>1,30m</senseacompañar>
+        </Alçada_min>
+        <Intensitat> Infantil</Intensitat>
+      </Activitat>
+      <!--Ponemos los atributos nom, passPreferent, Access_discap, Foto y Video dentro de la etiqueta para mostrar los elementos que son si o no y el nombre de la actividad-->
+      <Activitat nom="El salt a la pissarra" passPreferent="No" Access_discap="Si" Foto="No" Video="No">
+        <Alçada_min>
+          <Acompañat>0,95m</Acompañat>
+          <senseacompañar>1,30m</senseacompañar>
+        </Alçada_min>
+        <Intensitat> Infantil</Intensitat>
+      </Activitat>
+    </ESO>
+    <Batxillerat>
+      <!--Ponemos los atributos nom, passPreferent, Access_discap, Foto y Video dentro de la etiqueta para mostrar los elementos que son si o no y el nombre de la actividad-->
+      <Activitat nom="Furius Selectivity" passPreferent="Si" Access_discap="Si" Foto="Si" Video="Si">
+        <Alçada_min>1,40</Alçada_min>
+        <Alçada_maxima>1,90m</Alçada_maxima>
+        <Intensitat>Forta</Intensitat>
+      </Activitat>
+      <!--Ponemos los atributos nom, passPreferent, Access_discap, Foto y Video dentro de la etiqueta para mostrar los elementos que son si o no y el nombre de la actividad-->
+      <Activitat nom="Examen Splash" passPreferent="Si" Access_discap="Si" Foto="Si" Video="No">
+        <Alçada_min>
+          <Acompañat>1,30m</Acompañat>
+          <senseacompañar>1,40m</senseacompañar>
+        </Alçada_min>
+        <Intensitat>Moderada</Intensitat>
+      </Activitat>
+      <!--Ponemos los atributos nom, passPreferent, Access_discap, Foto y Video dentro de la etiqueta para mostrar los elementos que son si o no y el nombre de la actividad-->
+      <Activitat nom="Juny Wave" passPreferent="No" Access_discap="No" Foto="No" Video="No">
+        <Alçada_min>
+          <Acompañat>1,30m</Acompañat>
+          <senseacompañar>1,40m</senseacompañar>
+        </Alçada_min>
+        <Intensitat>Moderada</Intensitat>
+      </Activitat>
+      <!--Ponemos los atributos nom, passPreferent, Access_discap, Foto y Video dentro de la etiqueta para mostrar los elementos que son si o no y el nombre de la actividad-->
+      <Activitat nom="El tren de sortida" passPreferent="No" Access_discap="Si" Foto="No" Video="No">
+        <Intensitat>Suau</Intensitat>
+      </Activitat>
+    </Batxillerat>
+    <GM>
+      <!--Ponemos los atributos nom, passPreferent, Access_discap, Foto y Video dentro de la etiqueta para mostrar los elementos que son si o no y el nombre de la actividad-->
+      <Activitat nom="Practiques River Flume" passPreferent="Si" Access_discap="Si" Foto="Si" Video="Si">
+        <Alçada_min>
+          <Acompañat>1,30m</Acompañat>
+          <senseacompañar>1,40m</senseacompañar>
+        </Alçada_min>
+        <Intensitat>Moderada</Intensitat>
+      </Activitat>
+      <!--Ponemos los atributos nom, passPreferent, Access_discap, Foto y Video dentro de la etiqueta para mostrar los elementos que son si o no y el nombre de la actividad-->
+      <Activitat nom="Dies Festius Rapid" passPreferent="Si" Access_discap="No" Foto="Si" Video="No">
+        <Alçada_min>
+          <Acompañat>1,20m</Acompañat>
+          <senseacompañar>1,30m</senseacompañar>
+        </Alçada_min>
+        <Intensitat>Moderada</Intensitat>
+      </Activitat>
+      <!--Ponemos los atributos nom, passPreferent, Access_discap, Foto y Video dentro de la etiqueta para mostrar los elementos que son si o no y el nombre de la actividad-->
+      <Activitat nom="Crazy Credit Sintesis" passPreferent="No" Access_discap="Si" Foto="No" Video="No">
+        <Alçada_min>
+          <Acompañat>1,20m</Acompañat>
+          <senseacompañar>1,30m</senseacompañar>
+        </Alçada_min>
+        <Intensitat>Moderada</Intensitat>
+      </Activitat>
+      <!--Ponemos los atributos nom, passPreferent, Access_discap, Foto y Video dentro de la etiqueta para mostrar los elementos que son si o no y el nombre de la actividad-->
+      <Activitat nom="Les canoes del traspas" passPreferent="No" Access_discap="Si" Foto="No" Video="No">
+        <Intensitat>Suau</Intensitat>
+      </Activitat>
+    </GM>
+    <GS>
+      <!--Ponemos los atributos nom, passPreferent, Access_discap, Foto y Video dentro de la etiqueta para mostrar los elementos que son si o no y el nombre de la actividad-->
+      <Activitat nom="Dual Khan" passPreferent="Si" Access_discap="Si" Foto="Si" Video="Si">
+        <Alçada_min>1,40m</Alçada_min>
+        <Alçada_maxima>1,95m</Alçada_maxima>
+        <Intensitat>Forta</Intensitat>
+      </Activitat>
+      <!--Ponemos los atributos nom, passPreferent, Access_discap, Foto y Video dentro de la etiqueta para mostrar los elementos que son si o no y el nombre de la actividad-->
+      <Activitat nom="Dhambhalla" passPreferent="Si" Access_discap="Si" Foto="Si" Video="Si">
+        <Alçada_min>1,40m</Alçada_min>
+        <Intensitat>Forta</Intensitat>
+      </Activitat>
+      <!--Ponemos los atributos nom, passPreferent, Access_discap, Foto y Video dentro de la etiqueta para mostrar los elementos que son si o no y el nombre de la actividad-->
+      <Activitat nom="Projecte Climbing" passPreferent="No" Access_discap="No" Foto="No" Video="No">
+        <Alçada_min>
+          <Acompañat>1,20m</Acompañat>
+          <senseacompañar>1,30m</senseacompañar>
+        </Alçada_min>
+        <Alçada_maxima>1,50m</Alçada_maxima>
+        <Intensitat> Moderada</Intensitat>
+      </Activitat>
+      <!--Ponemos los atributos nom, passPreferent, Access_discap, Foto y Video dentro de la etiqueta para mostrar los elementos que son si o no y el nombre de la actividad-->
+      <Activitat nom="Coperkor" passPreferent="Si" Access_discap="Si" Foto="Si" Video="No">
+        <Alçada_min>
+          <Acompañat>1,20m</Acompañat>
+          <senseacompañar>1,30m</senseacompañar>
+        </Alçada_min>
+        <Intensitat>Suau</Intensitat>
+      </Activitat>
+    </GS>
+    <Profes>
+      <!--Ponemos los atributos nom, passPreferent, Access_discap, Foto y Video dentro de la etiqueta para mostrar los elementos que son si o no y el nombre de la actividad-->
+      <Activitat nom="El temple de les notes" passPreferent="Si" Access_discap="Si" Foto="No" Video="No">
+        <Alçada_min>
+          <Acompañat>1m</Acompañat>
+          <senseacompañar>1,40m</senseacompañar>
+        </Alçada_min>
+        <Intensitat>Moderada</Intensitat>
+      </Activitat>
+      <!--Ponemos los atributos nom, passPreferent, Access_discap, Foto y Video dentro de la etiqueta para mostrar los elementos que son si o no y el nombre de la actividad-->
+      <Activitat nom="El secret dels alumnes" passPreferent="No" Access_discap="No" Foto="No" Video="No">
+        <Intensitat>Suau</Intensitat>
+      </Activitat>
+      <!--Ponemos los atributos nom, passPreferent, Access_discap, Foto y Video dentro de la etiqueta para mostrar los elementos que son si o no y el nombre de la actividad-->
+      <Activitat nom="Hurakan Truancy" passPreferent="No" Access_discap="Si" Foto="Si" Video="No">
+        <Alçada_min>1,40m</Alçada_min>
+        <Alçada_maxima>1,95m</Alçada_maxima>
+        <Intensitat>Forta</Intensitat>
+      </Activitat>
+    </Profes>
+  </Atraccions>
+  <Espectaculos>
+    <ESO>
+      <!--Ponemos los atributos nom, passPreferent y Access_discap dentro de la etiqueta para mostrar los elementos que son si o no y el nombre del espectaculo-->
+      <Activitat nom="Alhoa alumnes" PassPreferent="No" Access_discap="Si">
+        <Horari>
+          <!--Hemos puestro este atributo para especificar la hora la cual se refiere el elemento-->
+          <hora hora="11:30">
+            <diaSetmana>dilluns</diaSetmana>
+            <diaSetmana>dimarts</diaSetmana>
+            <diaSetmana>dimecres</diaSetmana>
+            <diaSetmana>dijous</diaSetmana>
+            <diaSetmana>divendres</diaSetmana>
+            <diaSetmana>dissabte</diaSetmana>
+            <diaSetmana>diumenge</diaSetmana>
+          </hora>
+          <!--Hemos puestro este atributo para especificar la hora la cual se refiere el elemento-->
+          <hora hora="14:00">
+            <diaSetmana>dilluns</diaSetmana>
+            <diaSetmana>dimarts</diaSetmana>
+            <diaSetmana>dimecres</diaSetmana>
+            <diaSetmana>dijous</diaSetmana>
+            <diaSetmana>divendres</diaSetmana>
+            <diaSetmana>dissabte</diaSetmana>
+            <diaSetmana>diumenge</diaSetmana>
+          </hora>
+          <!--Hemos puestro este atributo para especificar la hora la cual se refiere el elemento-->
+          <hora hora="16:00">
+            <diaSetmana>dilluns</diaSetmana>
+            <diaSetmana>dimarts</diaSetmana>
+            <diaSetmana>dimecres</diaSetmana>
+            <diaSetmana>dijous</diaSetmana>
+            <diaSetmana>divendres</diaSetmana>
+            <diaSetmana>dissabte</diaSetmana>
+            <diaSetmana>diumenge</diaSetmana>
+          </hora>
+          <!--Hemos puestro este atributo para especificar la hora la cual se refiere el elemento-->
+          <hora hora="17:00">
+            <diaSetmana>dilluns</diaSetmana>
+            <diaSetmana>dimarts</diaSetmana>
+            <diaSetmana>dimecres</diaSetmana>
+            <diaSetmana>dijous</diaSetmana>
+            <diaSetmana>divendres</diaSetmana>
+            <diaSetmana>dissabte</diaSetmana>
+            <diaSetmana>diumenge</diaSetmana>
+          </hora>
+        </Horari>
+        <Tipus>Aventura</Tipus>
+      </Activitat>
+      <!--Ponemos los atributos nom, passPreferent y Access_discap dentro de la etiqueta para mostrar los elementos que son si o no y el nombre del espectaculo-->
+      <Activitat nom="Em sento al paradis" passPreferent="No" Access_discap="Si">
+        <Horari>
+          <!--Hemos puestro este atributo para especificar la hora la cual se refiere el elemento-->
+          <hora hora="11:30">
+            <diaSetmana>dilluns</diaSetmana>
+            <diaSetmana>dimarts</diaSetmana>
+            <diaSetmana>dimecres</diaSetmana>
+            <diaSetmana>dijous</diaSetmana>
+            <diaSetmana>divendres</diaSetmana>
+            <diaSetmana>dissabte</diaSetmana>
+            <diaSetmana>diumenge</diaSetmana>
+          </hora>
+          <!--Hemos puestro este atributo para especificar la hora la cual se refiere el elemento-->
+          <hora hora="11:30">
+            <diaSetmana>dilluns</diaSetmana>
+            <diaSetmana>dimarts</diaSetmana>
+            <diaSetmana>dimecres</diaSetmana>
+            <diaSetmana>dijous</diaSetmana>
+            <diaSetmana>divendres</diaSetmana>
+            <diaSetmana>dissabte</diaSetmana>
+            <diaSetmana>diumenge</diaSetmana>
+          </hora>
+          <!--Hemos puestro este atributo para especificar la hora la cual se refiere el elemento-->
+          <hora hora="12:00">
+            <diaSetmana>dissabte</diaSetmana>
+            <diaSetmana>diumenge</diaSetmana>
+          </hora>
+          <!--Hemos puestro este atributo para especificar la hora la cual se refiere el elemento-->
+          <hora hora="13:00">
+            <diaSetmana>dilluns</diaSetmana>
+            <diaSetmana>dimarts</diaSetmana>
+            <diaSetmana>dimecres</diaSetmana>
+            <diaSetmana>dijous</diaSetmana>
+            <diaSetmana>divendres</diaSetmana>
+          </hora>
+          <!--Hemos puestro este atributo para especificar la hora la cual se refiere el elemento-->
+          <hora hora="13:30">
+            <diaSetmana>dissabte</diaSetmana>
+            <diaSetmana>diumenge</diaSetmana>
+          </hora>
+          <!--Hemos puestro este atributo para especificar la hora la cual se refiere el elemento-->
+          <hora hora="15:30">
+            <diaSetmana>dilluns</diaSetmana>
+            <diaSetmana>dimarts</diaSetmana>
+            <diaSetmana>dimecres</diaSetmana>
+            <diaSetmana>dijous</diaSetmana>
+            <diaSetmana>divendres</diaSetmana>
+          </hora>
+          <!--Hemos puestro este atributo para especificar la hora la cual se refiere el elemento-->
+          <hora hora="15:30">
+            <diaSetmana>dissabte</diaSetmana>
+            <diaSetmana>diumenge</diaSetmana>
+          </hora>
+        </Horari>
+        <Tipus>Didactic</Tipus>
+      </Activitat>
+    </ESO>
+    <GM>
+      <!--Ponemos los atributos nom, passPreferent y Access_discap dentro de la etiqueta para mostrar los elementos que son si o no y el nombre del espectaculo-->
+      <Activitat Nom="CCC@Experience" passPreferent="No" Access_discap="Si">
+        <Horari>
+          <!--Hemos puestro este atributo para especificar la hora de obertura a la que se refiere el elemento-->
+          <horaobertura hora="11:30">
+            <diaSetmana>dissabte</diaSetmana>
+          </horaobertura>
+          <!--Hemos puestro este atributo para especificar la hora de cierre a la que se refiere el elemento-->
+          <horatancament hora="13:30">
+            <diaSetmana>dissabte</diaSetmana>
+          </horatancament>
+          <!--Hemos puestro este atributo para especificar la hora de obertura a la que se refiere el elemento-->
+          <horaobertura hora="15:00">
+            <diaSetmana>dissabte</diaSetmana>
+          </horaobertura>
+          <!--Hemos puestro este atributo para especificar la hora de cierre a la que se refiere el elemento-->
+          <horatancament hora="18:30">
+            <diaSetmana>dissabte</diaSetmana>
+          </horatancament>
+          <!--Hemos puestro este atributo para especificar la hora de obertura a la que se refiere el elemento-->
+          <horaobertura hora="11:00">
+            <diaSetmana>diumenge</diaSetmana>
+          </horaobertura>
+          <!--Hemos puestro este atributo para especificar la hora de cierre a la que se refiere el elemento-->
+          <horatancament hora="13:00">
+            <diaSetmana>diumenge</diaSetmana>
+          </horatancament>
+          <!--Hemos puestro este atributo para especificar la hora de obertura a la que se refiere el elemento-->
+          <horaobertura hora="14:30">
+            <diaSetmana>diumenge</diaSetmana>
+          </horaobertura>
+          <!--Hemos puestro este atributo para especificar la hora de cierre a la que se refiere el elemento-->
+          <horatancament hora="17:30">
+            <diaSetmana>diumenge</diaSetmana>
+          </horatancament>
+        </Horari>
+        <Tipus>Passatge del terror</Tipus>
+      </Activitat>
+    </GM>
+    <GS>
+      <!--Ponemos los atributos nom, passPreferent y Access_discap dentro de la etiqueta para mostrar los elementos que son si o no y el nombre del espectaculo-->
+      <Activitat Nom="Around the Coper" passPreferent="Seient VIP" Access_discap="Si">
+        <Horari>
+          <!--Hemos puestro este atributo para especificar la hora la cual se refiere el elemento-->
+          <hora hora="14:00">
+            <diaSetmana>dilluns</diaSetmana>
+            <diaSetmana>dimecres</diaSetmana>
+            <diaSetmana>dijous</diaSetmana>
+            <diaSetmana>divendres</diaSetmana>
+            <diaSetmana>diumenge</diaSetmana>
+          </hora>
+          <!--Hemos puestro este atributo para especificar la hora la cual se refiere el elemento-->
+          <hora hora="16:00">
+            <diaSetmana>dilluns</diaSetmana>
+            <diaSetmana>dimecres</diaSetmana>
+            <diaSetmana>dijous</diaSetmana>
+            <diaSetmana>divendres</diaSetmana>
+            <diaSetmana>diumenge</diaSetmana>
+          </hora>
+          <!--Hemos puestro este atributo para especificar la hora la cual se refiere el elemento-->
+          <hora hora="16:00">
+            <diaSetmana>dissabte</diaSetmana>
+          </hora>
+          <!--Hemos puestro este atributo para especificar la hora la cual se refiere el elemento-->
+          <hora hora="18:00">
+            <diaSetmana>dissabte</diaSetmana>
+          </hora>
+        </Horari>
+        <Tipus>Musical</Tipus>
+      </Activitat>
+    </GS>
+    <Profes>
+      <!--Ponemos los atributos nom, passPreferent y Access_discap dentro de la etiqueta para mostrar los elementos que son si o no y el nombre del espectaculo-->
+      <Activitat Nom="CoperParade" passPreferent="No" Access_discap="Si">
+        <Horari>
+          <!--Hemos puestro este atributo para especificar la hora de obertura a la que se refiere el elemento-->
+          <horaobertura hora="20:00">
+            <diaSetmana>dissabte</diaSetmana>
+            <diaSetmana>diumenge</diaSetmana>
+          </horaobertura>
+          <!--Hemos puestro este atributo para especificar la hora de cierre a la que se refiere el elemento-->
+          <horatancament hora="22:00">
+            <diaSetmana>dissabte</diaSetmana>
+            <diaSetmana>diumenge</diaSetmana>
+          </horatancament>
+        </Horari>
+        <Tipus>Aventura</Tipus>
+      </Activitat>
+      <!--Ponemos los atributos nom, passPreferent y Access_discap dentro de la etiqueta para mostrar los elementos que son si o no y el nombre del espectaculo-->
+      <Activitat Nom="Apocalipsis COVID" PassPreferent="Si" Access_discap="No">
+        <Horari>
+          <horaobertura hora="12:30">
+            <diaSetmana>dissabte</diaSetmana>
+          </horaobertura>
+          <horatancament hora="14:30">
+            <diaSetmana>dissabte</diaSetmana>
+          </horatancament>
+          <horaobertura hora="16:00">
+            <diaSetmana>dissabte</diaSetmana>
+          </horaobertura>
+          <horatancament hora="18:30">
+            <diaSetmana>dissabte</diaSetmana>
+          </horatancament>
+          <horaobertura hora="11:30">
+            <diaSetmana>diumenge</diaSetmana>
+          </horaobertura>
+          <horatancament hora="13:30">
+            <diaSetmana>diumenge</diaSetmana>
+          </horatancament>
+          <horaobertura hora="15:00">
+            <diaSetmana>diumenge</diaSetmana>
+          </horaobertura>
+          <horatancament hora="17:00">
+            <diaSetmana>diumenge</diaSetmana>
+          </horatancament>
+        </Horari>
+        <Tipus>Passatge del terror</Tipus>
+      </Activitat>
+    </Profes>
+  </Espectaculos>
+  <Restaurants>
+    <ESO>
+      <!--Ponemos el atributo nom dentro de la etiqueta para mostrar el nombre del restaurante-->
+      <Restaurant nom="La cuina de l'ESO">
+        <Servei>Taula y autoservei</Servei>
+        <Menuespecial>Infantil</Menuespecial>
+      </Restaurant>
+    </ESO>
+    <BATXILLERAT>
+      <!--Ponemos el atributo nom dentro de la etiqueta para mostrar el nombre del restaurante-->
+      <Restaurant nom="Aiguaesfera Classes i Aigua">
+        <Servei>Taula</Servei>
+        <Menuespecial>Infantil</Menuespecial>
+      </Restaurant>
+      <!--Ponemos el atributo nom dentro de la etiqueta para mostrar el nombre del restaurante-->
+      <Restaurant nom="Café de primera hora">
+        <Servei>Autoservei</Servei>
+      </Restaurant>
+    </BATXILLERAT>
+    <GS>
+      <!--Ponemos el atributo nom dentro de la etiqueta para mostrar el nombre del restaurante-->
+      <Restaurant nom="The Iron student">
+        <Servei>Taula</Servei>
+        <Menuespecial>Celíac i Infantil</Menuespecial>
+      </Restaurant>
+      <!--Ponemos el atributo nom dentro de la etiqueta para mostrar el nombre del restaurante-->
+      <Restaurant nom="The new snack house">
+        <Servei>Autoservei</Servei>
+        <Menuespecial>Celíac</Menuespecial>
+      </Restaurant>
+    </GS>
+    <Profes>
+      <!--Ponemos el atributo nom dentro de la etiqueta para mostrar el nombre del restaurante-->
+      <Restaurant nom="Cantina del Coper">
+        <Servei>Taula</Servei>
+        <Menuespecial>Celíac i Infantil</Menuespecial>
+      </Restaurant>
+      <!--Ponemos el atributo nom dentro de la etiqueta para mostrar el nombre del restaurante-->
+      <Restaurant nom="Un entrepà express">
+        <Servei>Autoservei</Servei>
+        <Menuespecial>Celíac</Menuespecial>
+      </Restaurant>
+    </Profes>
+  </Restaurants>
+  <Botigues>
+    <ESO>
+      <!--Ponemos el atributo nom y serveiderecollida dentro de la etiqueta para mostrar el nombre de la tienda y si tiene servicio de recogida-->
+      <Botiga nom="ESOTenda" serveiderecollida="Si">
+        <Productes>Souvenirs</Productes>
+      </Botiga>
+      <!--Ponemos el atributo nom y serveiderecollida dentro de la etiqueta para mostrar el nombre de la tienda y si tiene servicio de recogida-->
+      <Botiga nom="Fotos Profe-Profe" serveiderecollida="No">
+        <Productes>Fotografies</Productes>
+      </Botiga>
+      <!--Ponemos el atributo nom y serveiderecollida dentro de la etiqueta para mostrar el nombre de la tienda y si tiene servicio de recogida-->
+      <Botiga nom="Fotos Pati Mission" serveiderecollida="No">
+        <Productes>Fotografies</Productes>
+      </Botiga>
+    </ESO>
+    <Batxillerat>
+      <!--Ponemos el atributo nom y serveiderecollida dentro de la etiqueta para mostrar el nombre de la tienda y si tiene servicio de recogida-->
+      <Botiga nom="Fotos Furius Selectivity" serveiderecollida="No">
+        <Productes>Fotografies</Productes>
+      </Botiga>
+      <!--Ponemos el atributo nom y serveiderecollida dentro de la etiqueta para mostrar el nombre de la tienda y si tiene servicio de recogida-->
+      <Botiga nom="Records CoperAvetura" serveiderecollida="Si">
+        <Productes>Souvenirs</Productes>
+      </Botiga>
+      <!--Ponemos el atributo nom y serveiderecollida dentro de la etiqueta para mostrar el nombre de la tienda y si tiene servicio de recogida-->
+      <Botiga nom="Dolços del mes" serveiderecollida="No">
+        <Productes>Llaminadures</Productes>
+      </Botiga>
+    </Batxillerat>
+    <GM>
+      <!--Ponemos el atributo nom y serveiderecollida dentro de la etiqueta para mostrar el nombre de la tienda y si tiene servicio de recogida-->
+      <Botiga nom="Fotos Pràctiques River Flume" serveiderecollida="No">
+        <Productes>Fotografies</Productes>
+      </Botiga>
+      <!--Ponemos el atributo nom y serveiderecollida dentro de la etiqueta para mostrar el nombre de la tienda y si tiene servicio de recogida-->
+      <Botiga nom="Fotos Dies Festius Rapids" serveiderecollida="No">
+        <Productes>Fotografies</Productes>
+      </Botiga>
+      <!--Ponemos el atributo nom y serveiderecollida dentro de la etiqueta para mostrar el nombre de la tienda y si tiene servicio de recogida-->
+      <Botiga nom="GM Store" serveiderecollida="Si">
+        <Productes>Souvenirs</Productes>
+      </Botiga>
+      <!--Ponemos el atributo nom y serveiderecollida dentro de la etiqueta para mostrar el nombre de la tienda y si tiene servicio de recogida-->
+      <Botiga nom="Dies Festius Rapids Shop" serveiderecollida="No">
+        <Productes>Souvenirs i Llaminadures</Productes>
+      </Botiga>
+    </GM>
+    <GS>
+      <!--Ponemos el atributo nom y serveiderecollida dentro de la etiqueta para mostrar el nombre de la tienda y si tiene servicio de recogida-->
+      <Botiga nom="Fotos Dual Khan" serveiderecollida="No">
+        <Productes>Fotografies</Productes>
+      </Botiga>
+      <!--Ponemos el atributo nom y serveiderecollida dentro de la etiqueta para mostrar el nombre de la tienda y si tiene servicio de recogida-->
+      <Botiga nom="Fotos Dhambhala" serveiderecollida="No">
+        <Productes>Fotografies</Productes>
+      </Botiga>
+      <!--Ponemos el atributo nom y serveiderecollida dentro de la etiqueta para mostrar el nombre de la tienda y si tiene servicio de recogida-->
+      <Botiga nom="GS Palace" serveiderecollida="Si">
+        <Productes>Souvenirs</Productes>
+      </Botiga>
+    </GS>
+    <Profes>
+      <!--Ponemos el atributo nom y serveiderecollida dentro de la etiqueta para mostrar el nombre de la tienda y si tiene servicio de recogida-->
+      <Botiga nom="Fotos Hurakan Truancy" serveiderecollida="No">
+        <Productes>Fotografies</Productes>
+      </Botiga>
+      <!--Ponemos el atributo nom y serveiderecollida dentro de la etiqueta para mostrar el nombre de la tienda y si tiene servicio de recogida-->
+      <Botiga nom="Hurakan Truancy Shop" serveiderecollida="Si">
+        <Productes>Souvenirs</Productes>
+      </Botiga>
+      <!--Ponemos el atributo nom y serveiderecollida dentro de la etiqueta para mostrar el nombre de la tienda y si tiene servicio de recogida-->
+      <Botiga nom="Fotos Pati Mission" serveiderecollida="Si">
+        <Productes>Fotografies</Productes>
+      </Botiga>
+    </Profes>
+  </Botigues>
+  <Datesinteres>
+    <dataobertura>08/07/2020</dataobertura>
+    <datatancament>10/01/2021</datatancament>
+  </Datesinteres>
+  <horaris>
+    <!--Pondremos la etiqueta nom para mostar el mes que vamos a especificar para el elemento-->
+    <mes nom="Juliol">
+      <!--Pondremos la etiqueta hora para mostar la hora a la que nos referimos-->
+      <horaobertura hora="10:00">
+        <!--Pondremos la etiqueta datainici y datafinal para referirnos al periodo de dias en el que el elemento se ejecuta-->
+        <periode dataInici="1" dataFinal="31">
+          <diaSetmana>dilluns</diaSetmana>
+          <diaSetmana>dimarts</diaSetmana>
+          <diaSetmana>dimecres</diaSetmana>
+          <diaSetmana>dijous</diaSetmana>
+          <diaSetmana>divendres</diaSetmana>
+          <diaSetmana>dissabte</diaSetmana>
+          <diaSetmana>diumenge</diaSetmana>
+        </periode>
+      </horaobertura>
+      <!--Pondremos la etiqueta hora para mostar la hora a la que nos referimos-->
+      <horatancament hora="22:00">
+        <!--Pondremos la etiqueta datainici y datafinal para referirnos al periodo de dias en el que el elemento se ejecuta-->
+        <periode dataInici="1" dataFinal="31">
+          <diaSetmana>dilluns</diaSetmana>
+          <diaSetmana>dimarts</diaSetmana>
+          <diaSetmana>dimecres</diaSetmana>
+          <diaSetmana>dijous</diaSetmana>
+          <diaSetmana>divendres</diaSetmana>
+          <diaSetmana>dissabte</diaSetmana>
+          <diaSetmana>diumenge</diaSetmana>
+        </periode>
+      </horatancament>
+    </mes>
+    <!--Pondremos la etiqueta nom para mostar el mes que vamos a especificar para el elemento-->
+    <mes nom="Agost">
+      <!--Pondremos la etiqueta hora para mostar la hora a la que nos referimos-->
+      <horaobertura hora="10:00">
+        <!--Pondremos la etiqueta datainici y datafinal para referirnos al periodo de dias en el que el elemento se ejecuta-->
+        <periode dataInici="1" dataFinal="31">
+          <diaSetmana>dilluns</diaSetmana>
+          <diaSetmana>dimarts</diaSetmana>
+          <diaSetmana>dimecres</diaSetmana>
+          <diaSetmana>dijous</diaSetmana>
+          <diaSetmana>divendres</diaSetmana>
+          <diaSetmana>dissabte</diaSetmana>
+          <diaSetmana>diumenge</diaSetmana>
+        </periode>
+      </horaobertura>
+      <!--Pondremos la etiqueta hora para mostar la hora a la que nos referimos-->
+      <horatancament hora="22:00">
+        <!--Pondremos la etiqueta datainici y datafinal para referirnos al periodo de dias en el que el elemento se ejecuta-->
+        <periode dataInici="1" dataFinal="31">
+          <diaSetmana>dilluns</diaSetmana>
+          <diaSetmana>dimarts</diaSetmana>
+          <diaSetmana>dimecres</diaSetmana>
+          <diaSetmana>dijous</diaSetmana>
+          <diaSetmana>divendres</diaSetmana>
+          <diaSetmana>dissabte</diaSetmana>
+          <diaSetmana>diumenge</diaSetmana>
+        </periode>
+      </horatancament>
+    </mes>
+    <!--Pondremos la etiqueta nom para mostar el mes que vamos a especificar para el elemento-->
+    <mes nom="Setembre">
+      <!--Pondremos la etiqueta hora para mostar la hora a la que nos referimos-->
+      <horaobertura hora="10:00">
+        <!--Pondremos la etiqueta datainici y datafinal para referirnos al periodo de dias en el que el elemento se ejecuta-->
+        <periode dataInici="1" dataFinal="31">
+          <diaSetmana>dilluns</diaSetmana>
+          <diaSetmana>dimarts</diaSetmana>
+          <diaSetmana>dimecres</diaSetmana>
+          <diaSetmana>dijous</diaSetmana>
+          <diaSetmana>divendres</diaSetmana>
+          <diaSetmana>dissabte</diaSetmana>
+          <diaSetmana>diumenge</diaSetmana>
+        </periode>
+      </horaobertura>
+      <!--Pondremos la etiqueta hora para mostar la hora a la que nos referimos-->
+      <horatancament hora="22:00">
+        <!--Pondremos la etiqueta datainici y datafinal para referirnos al periodo de dias en el que el elemento se ejecuta-->
+        <periode dataInici="14" dataFinal="30">
+          <diaSetmana>dilluns</diaSetmana>
+          <diaSetmana>dimarts</diaSetmana>
+          <diaSetmana>dimecres</diaSetmana>
+          <diaSetmana>dijous</diaSetmana>
+          <diaSetmana>divendres</diaSetmana>
+          <diaSetmana>diumenge</diaSetmana>
+        </periode>
+      </horatancament>
+      <!--Pondremos la etiqueta hora para mostar la hora a la que nos referimos-->
+      <horatancament hora="22:00">
+        <!--Pondremos la etiqueta datainici y datafinal para referirnos al periodo de dias en el que el elemento se ejecuta-->
+        <periode dataInici="1" dataFinal="13">
+          <diaSetmana>dilluns</diaSetmana>
+          <diaSetmana>dimarts</diaSetmana>
+          <diaSetmana>dimecres</diaSetmana>
+          <diaSetmana>dijous</diaSetmana>
+          <diaSetmana>divendres</diaSetmana>
+          <diaSetmana>dissabte</diaSetmana>
+          <diaSetmana>diumenge</diaSetmana>
+        </periode>
+        <!--Pondremos la etiqueta datainici y datafinal para referirnos al periodo de dias en el que el elemento se ejecuta-->
+        <periode dataInici="14" dataFinal="30">
+          <diaSetmana>dissabte</diaSetmana>
+        </periode>
+      </horatancament>
+    </mes>
+    <!--Pondremos la etiqueta nom para mostar el mes que vamos a especificar para el elemento-->
+    <mes nom="octubre">
+      <!--Pondremos la etiqueta hora para mostar la hora a la que nos referimos-->
+      <horaobertura hora="10:00">
+        <!--Pondremos la etiqueta datainici y datafinal para referirnos al periodo de dias en el que el elemento se ejecuta-->
+        <periode dataInici="1" dataFinal="31">
+          <diaSetmana>dilluns</diaSetmana>
+          <diaSetmana>dimarts</diaSetmana>
+          <diaSetmana>dimecres</diaSetmana>
+          <diaSetmana>dijous</diaSetmana>
+          <diaSetmana>divendres</diaSetmana>
+          <diaSetmana>dissabte</diaSetmana>
+          <diaSetmana>diumenge</diaSetmana>
+        </periode>
+      </horaobertura>
+      <!--Pondremos la etiqueta hora para mostar la hora a la que nos referimos-->
+      <horatancament hora="20:00">
+        <!--Pondremos la etiqueta datainici y datafinal para referirnos al periodo de dias en el que el elemento se ejecuta-->
+        <periode dataInici="1" dataFinal="10">
+          <diaSetmana>dilluns</diaSetmana>
+          <diaSetmana>dimarts</diaSetmana>
+          <diaSetmana>dimecres</diaSetmana>
+          <diaSetmana>dijous</diaSetmana>
+          <diaSetmana>divendres</diaSetmana>
+          <diaSetmana>diumenge</diaSetmana>
+        </periode>
+        <!--Pondremos la etiqueta datainici y datafinal para referirnos al periodo de dias en el que el elemento se ejecuta-->
+        <periode dataInici="12" dataFinal="31">
+          <diaSetmana>dilluns</diaSetmana>
+          <diaSetmana>dimarts</diaSetmana>
+          <diaSetmana>dimecres</diaSetmana>
+          <diaSetmana>dijous</diaSetmana>
+          <diaSetmana>divendres</diaSetmana>
+          <diaSetmana>diumenge</diaSetmana>
+        </periode>
+      </horatancament>
+      <!--Pondremos la etiqueta hora para mostar la hora a la que nos referimos-->
+      <horatancament hora="22:00">
+        <!--Pondremos la etiqueta datainici y datafinal para referirnos al periodo de dias en el que el elemento se ejecuta-->
+        <periode dataInici="1" dataFinal="31">
+          <diaSetmana>dissabte</diaSetmana>
+        </periode>
+        <!--Pondremos la etiqueta datainici y datafinal para referirnos al periodo de dias en el que el elemento se ejecuta-->
+        <periode dataInici="11" dataFinal="11">
+          <diaSetmana>diumenge</diaSetmana>
+        </periode>
+      </horatancament>
+    </mes>
+    <!--Pondremos la etiqueta nom para mostar el mes que vamos a especificar para el elemento-->
+    <mes nom="Novembre">
+      <!--Pondremos la etiqueta hora para mostar la hora a la que nos referimos-->
+      <horaobertura hora="10:00">
+        <!--Pondremos la etiqueta datainici y datafinal para referirnos al periodo de dias en el que el elemento se ejecuta-->
+        <periode dataInici="1" dataFinal="31">
+          <diaSetmana>dissabte</diaSetmana>
+          <diaSetmana>diumenge</diaSetmana>
+        </periode>
+      </horaobertura>
+      <!--Pondremos la etiqueta hora para mostar la hora a la que nos referimos-->
+      <horatancament hora="22:00">
+        <!--Pondremos la etiqueta datainici y datafinal para referirnos al periodo de dias en el que el elemento se ejecuta-->
+        <periode dataInici="7" dataFinal="7">
+          <diaSetmana>dissabte</diaSetmana>
+        </periode>
+        <!--Pondremos la etiqueta datainici y datafinal para referirnos al periodo de dias en el que el elemento se ejecuta-->
+        <periode dataInici="14" dataFinal="14">
+          <diaSetmana>dissabte</diaSetmana>
+        </periode>
+      </horatancament>
+      <!--Pondremos la etiqueta hora para mostar la hora a la que nos referimos-->
+      <horatancament hora="18:00">
+        <!--Pondremos la etiqueta datainici y datafinal para referirnos al periodo de dias en el que el elemento se ejecuta-->
+        <periode dataInici="1" dataFinal="6">
+          <diaSetmana>dissabte</diaSetmana>
+          <diaSetmana>diumenge</diaSetmana>
+        </periode>
+        <!--Pondremos la etiqueta datainici y datafinal para referirnos al periodo de dias en el que el elemento se ejecuta-->
+        <periode dataInici="8" dataFinal="13">
+          <diaSetmana>dissabte</diaSetmana>
+          <diaSetmana>diumenge</diaSetmana>
+        </periode>
+        <!--Pondremos la etiqueta datainici y datafinal para referirnos al periodo de dias en el que el elemento se ejecuta-->
+        <periode dataInici="15" dataFinal="30">
+          <diaSetmana>dissabte</diaSetmana>
+          <diaSetmana>diumenge</diaSetmana>
+        </periode>
+      </horatancament>
+    </mes>
+    <!--Pondremos la etiqueta nom para mostar el mes que vamos a especificar para el elemento-->
+    <mes nom="Desembre">
+      <!--Pondremos la etiqueta hora para mostar la hora a la que nos referimos-->
+      <horaobertura hora="10:00">
+        <!--Pondremos la etiqueta datainici y datafinal para referirnos al periodo de dias en el que el elemento se ejecuta-->
+        <periode dataInici="1" dataFinal="31">
+          <diaSetmana>dissabte</diaSetmana>
+          <diaSetmana>diumenge</diaSetmana>
+        </periode>
+        <!--Pondremos la etiqueta datainici y datafinal para referirnos al periodo de dias en el que el elemento se ejecuta-->
+        <periode dataInici="7" dataFinal="8">
+          <diaSetmana>dilluns</diaSetmana>
+          <diaSetmana>dimarts</diaSetmana>
+        </periode>
+        <!--Pondremos la etiqueta datainici y datafinal para referirnos al periodo de dias en el que el elemento se ejecuta-->
+        <periode dataInici="21" dataFinal="25">
+          <diaSetmana>dimarts</diaSetmana>
+          <diaSetmana>dimecres</diaSetmana>
+          <diaSetmana>dijous</diaSetmana>
+          <diaSetmana>divendres</diaSetmana>
+          <diaSetmana>dissabte</diaSetmana>
+        </periode>
+        <!--Pondremos la etiqueta datainici y datafinal para referirnos al periodo de dias en el que el elemento se ejecuta-->
+        <periode dataInici="28" dataFinal="31">
+          <diaSetmana>dimarts</diaSetmana>
+          <diaSetmana>dimecres</diaSetmana>
+          <diaSetmana>dijous</diaSetmana>
+          <diaSetmana>divendres</diaSetmana>
+        </periode>
+      </horaobertura>
+      <!--Pondremos la etiqueta hora para mostar la hora a la que nos referimos-->
+      <horatancament hora="18:00">
+        <!--Pondremos la etiqueta datainici y datafinal para referirnos al periodo de dias en el que el elemento se ejecuta-->
+        <periode dataInici="1" dataFinal="31">
+          <diaSetmana>dissabte</diaSetmana>
+          <diaSetmana>diumenge</diaSetmana>
+        </periode>
+        <!--Pondremos la etiqueta datainici y datafinal para referirnos al periodo de dias en el que el elemento se ejecuta-->
+        <periode dataInici="7" dataFinal="8">
+          <diaSetmana>dilluns</diaSetmana>
+          <diaSetmana>dimarts</diaSetmana>
+        </periode>
+        <!--Pondremos la etiqueta datainici y datafinal para referirnos al periodo de dias en el que el elemento se ejecuta-->
+        <periode dataInici="21" dataFinal="25">
+          <diaSetmana>dimarts</diaSetmana>
+          <diaSetmana>dimecres</diaSetmana>
+          <diaSetmana>dijous</diaSetmana>
+          <diaSetmana>divendres</diaSetmana>
+          <diaSetmana>dissabte</diaSetmana>
+        </periode>
+        <!--Pondremos la etiqueta datainici y datafinal para referirnos al periodo de dias en el que el elemento se ejecuta-->
+        <periode dataInici="28" dataFinal="31">
+          <diaSetmana>dimarts</diaSetmana>
+          <diaSetmana>dimecres</diaSetmana>
+          <diaSetmana>dijous</diaSetmana>
+          <diaSetmana>divendres</diaSetmana>
+        </periode>
+      </horatancament>
+    </mes>
+    <!--Pondremos la etiqueta nom para mostar el mes que vamos a especificar para el elemento-->
+    <mes nom="Gener">
+      <!--Pondremos la etiqueta hora para mostar la hora a la que nos referimos-->
+      <horaobertura hora="10:00">
+        <!--Pondremos la etiqueta datainici y datafinal para referirnos al periodo de dias en el que el elemento se ejecuta-->
+        <periode dataInici="1" dataFinal="10">
+          <diaSetmana>Dilluns</diaSetmana>
+          <diaSetmana>Dimarts</diaSetmana>
+          <diaSetmana>Dimecres</diaSetmana>
+          <diaSetmana>Dijous</diaSetmana>
+          <diaSetmana>Divendres</diaSetmana>
+          <diaSetmana>Dissabtes</diaSetmana>
+          <diaSetmana>Diumenge</diaSetmana>
+        </periode>
+      </horaobertura>
+    </mes>
+  </horaris>
+</Parc>

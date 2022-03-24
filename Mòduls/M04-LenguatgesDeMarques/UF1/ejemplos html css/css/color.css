@@ -1,0 +1,35 @@
+/*Això és un comentari*/
+
+/*REGLES*/
+
+/*PROPIETAT PEL COLOR DEL CONTINGUT D'UN ELEMENT*/
+
+/*
+La propietat color és la que ens permet definir el color de qualsevol element HTML.
+Li assignarem el color que li volem donar al contingut de l'element.
+*/
+
+/*Regla que fa que el contingut d'un títol h1, sigui de color xocolata*/
+h1{ /*Selector de tipus*/
+    color:chocolate; /*Propietat color amb valor de tipus nom*/
+}
+
+/*Regla que fa que el contingut d'un element amb el valor "color" assignat al seu atribut class,
+sigui el color rosa (#FF0080)*/
+.color{ /*Selector de classe*/
+    color:#FF0080; /*Propietat color amb valor de tipus hexadecimal*/
+}
+ 
+/*Regla que fa que el contingut de l'element span que forma part del contingut de l'element div,
+sigui de color vermell primari (rgb(255,0,0))*/
+div span{ /*Selector descendent*/
+    color:rgb(255,0,0); /*Propietat color amb valor de tipus RGB*/
+}
+
+/*Podem aplicar les mateixes regles a un conjunt de selectors de tipus que escriuem separats per comes*/
+/*En aquest cas els elements b i strong continuaran mantenint la negreta dels seus continguts
+però de color violeta*/
+b, strong{
+    color:violet;
+}
+
